@@ -74,7 +74,7 @@ const Header = props => {
 
             <div id='header-cover' style={{ backgroundImage: `url('${siteInfo.pageCover}')` }}
                 className={`header-cover bg-center w-full h-screen bg-cover ${CONFIG_HEXO.HOME_NAV_BACKGROUND_IMG_FIXED ? 'bg-fixed' : ''}`} />
-            <!-- Google tag (gtag.js) -->
+
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-85F6MVQPSF"></script>
             <script>
                 window.dataLayer = window.dataLayer || [];
