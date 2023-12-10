@@ -75,14 +75,14 @@ const Header = props => {
             <div id='header-cover' style={{ backgroundImage: `url('${siteInfo.pageCover}')` }}
                 className={`header-cover bg-center w-full h-screen bg-cover ${CONFIG_HEXO.HOME_NAV_BACKGROUND_IMG_FIXED ? 'bg-fixed' : ''}`} />
 
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-85F6MVQPSF"></script>
+           {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-85F6MVQPSF"></script>
             <script>
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments)}
                 gtag('js', new Date());
 
                 gtag('config', 'G-85F6MVQPSF');
-            </script>
+            </script>*/}
         </header>
   )
 }
